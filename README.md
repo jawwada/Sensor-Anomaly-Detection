@@ -57,7 +57,7 @@ Running the Flask server:
 ```bash
 python src/app/app.py
 ```
-Keep server running, open another prompt, setup python path like above and make example request for model inference:
+Keep server running, open another prompt, go to project root, setup python path like above and make example request for model inference:
 ```bash
 python src/app/request.py
 ```
@@ -68,7 +68,7 @@ To build and run the project using Docker:
 docker build -t sensor_fault_detection .
 docker run -p 80:80 sensor_fault_detection
 ```
-Keep server running, open another prompt, setup python path like above and make example request for model inference:
+Keep server running, open another prompt, go to project root, setup python path like above and make example request for model inference:
 ```bash
 python src/app/request.py
 ```
