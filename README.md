@@ -2,13 +2,23 @@
 
 ## Project Overview
 This project is aimed at detecting faults in sensor data. It includes a Python-based machine learning model for inference and a model deployment example through docker based Flask web server for handling requests.
+Following are the steps performed in the project:
+1. Data Preprocessing (Provided)
+2. Model Training (Provided)
+3. Model Inference (Provided)
+4. Model Deployment (Docker based deployment through Flask web server)
+5. CI/CD Pipeline (Azure DevOps, Push to Azure Container Registry)
+6. Unit Tests (Pytest)
+7. Logging (Python Logging Module)
+8. Example Request to the Flask server
+
 
 ## Requirements
 - Python 3.8
 - Docker (for Docker-based setup)
 - PyCharm or Visual Studio Code (for IDE-based setup)
 
-### Quick Start
+## Quick Start
 To run the project locally, first clone the repository:
 ```bash
 git clone git@github.com:jawwada/sensor_fault_detection.git
@@ -20,20 +30,20 @@ cd sensor_fault_detection
 There is a data folder in the project root: sensor_fault_detection directory
 1. add data files historical_sensor_data.csb and latest_sensor_data.csv to data folder
 2. add model.ipynb to notebooks folder
-
-## Local Setup
-
 *** To run the project locally or run the request.py from shell, first set the PYTHONPATH: ***
 
 ```bash
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 ```
-
-Then, install the required packages:
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+## Alternative Setups
+### Local Setup
+
 Running the main script:
 ```bash
 python src/main.py
