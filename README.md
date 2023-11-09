@@ -69,7 +69,12 @@ TODO: Add logging to the unit tests. Can be done using the pytest logging module
 
 
 ## Local Setup
+after cloning the repository, navigate to the project directory:
+add data files historical_sensor_data.csb and latest_sensor_data.csv to data folder
+add model.ipynb to notebooks folder
 
+
+```bash
 ### Setting Up the Environment
 After cloning the repository, navigate to the project directory:
 
