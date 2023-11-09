@@ -144,7 +144,6 @@ sensor_fault_detection
 
 ├── sensor_fault_detection.yaml
 
-```
 ## Project Components
 
 The project consists of the following components:
