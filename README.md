@@ -8,79 +8,21 @@ This project is aimed at detecting faults in sensor data. It includes a Python-b
 - Docker (for Docker-based setup)
 - PyCharm or Visual Studio Code (for IDE-based setup)
 
-## Project Structure
-The project is structured as follows:
+Quick Start
+To run the project locally, first clone the repository:
+```bash
+git clone git@github.com:jawwada/sensor_fault_detection.git
 ```
-sensor_fault_detection
-├── config
-│   ├── log_config.py
-├── data
-│   ├── historical_sensor_data.csb
-│   ├── latest_sensor_data.csv
-├── models
-│   ├── model.joblib
-├── notebooks
-│   ├── model.ipynb
-├── src
-│   ├── app
-│   │   ├── app.py
-│   ├── request
-│   │   ├── request.py
-│   ├── init.py       
-│   ├── main.py
-│   ├── machine_learning
-│   │   ├── inference.py
-│   │   ├── model.py
-│   │   ├── data_preprocessing.py
-├── tests
-│   ├── test_data_preprocessing.py
-│   ├── test_model_training.py
-├── Dockerfile
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── sensor_fault_detection.yaml
+then navigate to the project directory:
+```bash
+cd sensor_fault_detection
 ```
-
-## Project Components
-The project consists of the following components:
-- **config**: Contains the configuration files for the project. Logging, Database, Blob Storage, etc.
-- **data**: Contains the historical and latest sensor data.
-- **models**: Contains the trained model.
-- **notebooks**: Contains the Jupyter notebook used for model training.
-- **src**: Contains the source code for the project.
-  - **app**: Contains the Flask web server for handling requests.
-  - **request**: Contains the script for making requests to the Flask server.
-  - **init.py**: Contains the initialization code for the project.
-  - **main.py**: Contains the main script for the project.
-  - **machine_learning**: Contains the machine learning code for the project.
-    - **inference.py**: Contains the code for making inferences using the trained model.
-    - **model.py**: Contains the code for training the model.
-    - **data_preprocessing.py**: Contains the code for preprocessing the data.
-- **tests**: Contains the unit tests for the project.
-- **Dockerfile**: Contains the Dockerfile for the project.
-- **README.md**: Contains the project overview and setup instructions.
-- **requirements.txt**: Contains the required packages for the project.
-- **sensor_fault_detection.yaml**: Contains CI/CD pipeline to push the container image to azure container registry through azure devops/ gitlab tag push.
-
-The project has logging for the main model building and inference tasks implemented using the Python logging module. The logs are stored in the `logs` directory which is created once the main script is run.
-TODO: Add logging to the Flask server. Can be done using the Flask logging module.
-TODO: Add logging to the unit tests. Can be done using the pytest logging module.
-
-
-## Local Setup
 after cloning the repository, navigate to the project directory:
 add data files historical_sensor_data.csb and latest_sensor_data.csv to data folder
 add model.ipynb to notebooks folder
 
+## Local Setup
 
-```bash
-### Setting Up the Environment
-After cloning the repository, navigate to the project directory:
-
-```bash
-cd sensor_fault_detection
-```
 *** To run the project locally or run the request.py from shell, first set the PYTHONPATH: ***
 
 ```bash
@@ -140,4 +82,63 @@ process given below:
 4. Kubernetes or app service will be deployed with the latest image
 
 
+
+## Project Structure
+The project is structured as follows:
+```
+sensor_fault_detection
+├── config
+│   ├── log_config.py
+├── data
+│   ├── historical_sensor_data.csb
+│   ├── latest_sensor_data.csv
+├── models
+│   ├── model.joblib
+├── notebooks
+│   ├── model.ipynb
+├── src
+│   ├── app
+│   │   ├── app.py
+│   ├── request
+│   │   ├── request.py
+│   ├── init.py       
+│   ├── main.py
+│   ├── machine_learning
+│   │   ├── inference.py
+│   │   ├── model.py
+│   │   ├── data_preprocessing.py
+├── tests
+│   ├── test_data_preprocessing.py
+│   ├── test_model_training.py
+├── Dockerfile
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── sensor_fault_detection.yaml
+```
+
+## Project Components
+The project consists of the following components:
+- **config**: Contains the configuration files for the project. Logging, Database, Blob Storage, etc.
+- **data**: Contains the historical and latest sensor data.
+- **models**: Contains the trained model.
+- **notebooks**: Contains the Jupyter notebook used for model training.
+- **src**: Contains the source code for the project.
+  - **app**: Contains the Flask web server for handling requests.
+  - **request**: Contains the script for making requests to the Flask server.
+  - **init.py**: Contains the initialization code for the project.
+  - **main.py**: Contains the main script for the project.
+  - **machine_learning**: Contains the machine learning code for the project.
+    - **inference.py**: Contains the code for making inferences using the trained model.
+    - **model.py**: Contains the code for training the model.
+    - **data_preprocessing.py**: Contains the code for preprocessing the data.
+- **tests**: Contains the unit tests for the project.
+- **Dockerfile**: Contains the Dockerfile for the project.
+- **README.md**: Contains the project overview and setup instructions.
+- **requirements.txt**: Contains the required packages for the project.
+- **sensor_fault_detection.yaml**: Contains CI/CD pipeline to push the container image to azure container registry through azure devops/ gitlab tag push.
+
+The project has logging for the main model building and inference tasks implemented using the Python logging module. The logs are stored in the `logs` directory which is created once the main script is run.
+TODO: Add logging to the Flask server. Can be done using the Flask logging module.
+TODO: Add logging to the unit tests. Can be done using the pytest logging module.
 
