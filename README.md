@@ -80,7 +80,7 @@ process given below:
 
 ## Project Structure
 The project is structured as follows:
-
+```bash
 sensor_fault_detection
 ├── config
 │   ├── log_config.py
@@ -110,7 +110,7 @@ sensor_fault_detection
 ├── requirements.txt
 ├── .gitignore
 ├── sensor_fault_detection.yaml
-
+```
 ## Project Components
 
 The project consists of the following components:
