@@ -1,16 +1,17 @@
 # Sensor Fault Detection
 
 ## Project Overview
-This project is aimed at detecting faults in sensor data. It includes a Python-based machine learning model for inference and a model deployment example through docker based Flask web server for handling requests.
-Following are the steps performed in the project:
-1. Data Preprocessing (Provided)
-2. Model Training (Provided)
-3. Model Inference (Provided)
-4. Model Deployment (Docker based deployment through Flask web server)
-5. CI/CD Pipeline (Azure DevOps, Push to Azure Container Registry)
-6. Unit Tests (Pytest)
-7. Logging (Python Logging Module)
-8. Example Request to the Flask server
+This project focuses on fault detection in sensor data, leveraging a Python-based machine learning model for analysis and inference. Additionally, it showcases model deployment via a Docker-based Flask web server, enabling request handling and server interaction. 
+Key features and processes within the project include:
+
+1. Data preprocessing (provided)
+2. Model training (provided)
+3. Model inference (provided)
+4. Model deployment (docker based deployment through Flask web server)
+5. CI/CD pipeline (Azure DevOps, push to Azure container registry)
+6. Unit tests (pytest)
+7. Logging (Python logging module)
+8. Request to the Flask server
 
 
 ## Requirements
