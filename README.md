@@ -8,7 +8,7 @@ This project is aimed at detecting faults in sensor data. It includes a Python-b
 - Docker (for Docker-based setup)
 - PyCharm or Visual Studio Code (for IDE-based setup)
 
-Quick Start
+### Quick Start
 To run the project locally, first clone the repository:
 ```bash
 git clone git@github.com:jawwada/sensor_fault_detection.git
