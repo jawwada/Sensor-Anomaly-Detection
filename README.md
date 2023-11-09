@@ -18,8 +18,8 @@ then navigate to the project directory:
 cd sensor_fault_detection
 ```
 after cloning the repository, navigate to the project directory:
-add data files historical_sensor_data.csb and latest_sensor_data.csv to data folder
-add model.ipynb to notebooks folder
+1. add data files historical_sensor_data.csb and latest_sensor_data.csv to data folder
+2. add model.ipynb to notebooks folder
 
 ## Local Setup
 
