@@ -4,7 +4,7 @@ from src.machine_learning.data_preprocessing import load_data
 #give the url of the docker container running the flask app and the port number
 url = 'http://127.0.0.1:80/predict'
 # get data from csv file to convert to json
-data = load_data("../data/latest_sensor_data.csv").to_json()
+data = load_data("data/latest_sensor_data.csv").to_json()
 headers = {
     'Content-Type': 'application/json'
 }
