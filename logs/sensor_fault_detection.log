@@ -10,3 +10,15 @@
 2023-11-09 20:56:21,788 - INFO - Prediction successful.
 2023-11-09 20:56:21,789 - INFO - Predictions added to dataframe successfully.
 2023-11-09 20:59:32,528 - INFO - Data loaded successfully from data/latest_sensor_data.csv
+2023-11-09 21:22:41,401 - ERROR - Error loading data from data/historical_sensor_data.csv: [Errno 2] No such file or directory: 'data/historical_sensor_data.csv'
+2023-11-09 21:23:15,101 - INFO - Data loaded successfully from data/historical_sensor_data.csv
+2023-11-09 21:23:15,102 - INFO - Label column found and processed.
+2023-11-09 21:23:15,102 - INFO - Data preprocessing complete.
+2023-11-09 21:23:15,102 - INFO - Data split into train and test sets.
+2023-11-09 21:24:16,650 - INFO - Model training successful.
+2023-11-09 21:24:16,667 - INFO - Model evaluation successful. Score: 0.9777777777777777
+2023-11-09 21:24:16,671 - INFO - Data loaded successfully from data/latest_sensor_data.csv
+2023-11-09 21:24:16,671 - WARNING - Label column not found. Proceeding without labels.
+2023-11-09 21:24:16,672 - INFO - Data preprocessing complete.
+2023-11-09 21:24:16,971 - INFO - Prediction successful.
+2023-11-09 21:24:16,972 - INFO - Predictions added to dataframe successfully.
