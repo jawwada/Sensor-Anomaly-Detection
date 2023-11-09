@@ -68,11 +68,6 @@ then run any of the files in the `src` directory.
 2. run app.py in the app directory to start the flask server.
 3. run request.py in the request directory to make a request to the flask server.
 
-
-
-
-
-```bash
 ## CI/CD Pipeline
 The CI/CD pipeline is implemented using Azure DevOps. The pipeline is triggered when a new tag is pushed to the repository. The pipeline builds the Docker image and pushes it to the Azure Container Registry. The pipeline is defined in the `sensor_fault_detection.yaml` file.
 process given below:
