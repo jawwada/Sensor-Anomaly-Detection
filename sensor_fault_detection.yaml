@@ -1,0 +1,24 @@
+---
+# Process for triggering a build:
+# 1) Commit locally as normal
+# 2) git tag -a -f fault-detection-build
+# 3) push the tag to the remote repo
+jobs:
+- job: sensor_fault_detection
+  pool:
+      vmImage: 'ubuntu-latest'
+  steps:
+  - script: |
+      docker login -u $(dockerId) -p $(TF-VAR-CONTAINER-PASSWORD) $(dockerId).azurecr.io
+      docker build -f ./$(dockerfile_name) -t $(imageName) .
+      docker tag $(imageName) $(dockerId).azurecr.io/$(imageName):$(build.buildId)
+      docker push $(dockerId).azurecr.io/$(imageName):$(build.buildId)
+
+trigger:
+  tags:
+    include:
+      - fault-detection-build
+variables:
+  dockerfile_name: Dockerfile
+  imageName: fault_detection
+  dockerId: faultdetectionacr
