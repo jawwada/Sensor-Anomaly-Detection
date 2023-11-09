@@ -1,7 +1,7 @@
 # Sensor Fault Detection
 
 ## Project Overview
-This project is aimed at detecting faults in sensor data. It includes a Python-based machine learning model for inference and a Flask web server for handling requests.
+This project is aimed at detecting faults in sensor data. It includes a Python-based machine learning model for inference and a model deployment example through docker based Flask web server for handling requests.
 
 ## Requirements
 - Python 3.8
