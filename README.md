@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ```
 
 ## Alternative Setups
-### Local Setup
+### 1. Local Setup
 
 Running the main script:
 ```bash
@@ -61,7 +61,7 @@ Make Example Request for Model Inference:
 python src/app/request.py
 ```
 
-## Docker Setup
+### 2. Docker Setup
 To build and run the project using Docker:
 ```bash
 docker build -t sensor_fault_detection .
@@ -71,7 +71,7 @@ Make Example Request for Model Inference:
 ```bash
 python src/app/request.py
 ```
-## IDE Setup
+### 3. IDE Setup
 To run the project using an IDE, first set the working directory to project root
 then run any of the files in the `src` directory.
 1. to run the main script, set the working directory to project root and run `main.py` in the `src` directory.
