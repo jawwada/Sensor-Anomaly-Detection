@@ -22,3 +22,14 @@
 2023-11-09 21:24:16,672 - INFO - Data preprocessing complete.
 2023-11-09 21:24:16,971 - INFO - Prediction successful.
 2023-11-09 21:24:16,972 - INFO - Predictions added to dataframe successfully.
+2023-11-09 21:32:18,793 - INFO - Data loaded successfully from data/historical_sensor_data.csv
+2023-11-09 21:32:18,794 - INFO - Label column found and processed.
+2023-11-09 21:32:18,794 - INFO - Data preprocessing complete.
+2023-11-09 21:32:18,795 - INFO - Data split into train and test sets.
+2023-11-09 21:33:21,938 - INFO - Model training successful.
+2023-11-09 21:33:22,000 - INFO - Model evaluation successful. Score: 0.9777777777777777
+2023-11-09 21:33:22,004 - INFO - Data loaded successfully from data/latest_sensor_data.csv
+2023-11-09 21:33:22,004 - WARNING - Label column not found. Proceeding without labels.
+2023-11-09 21:33:22,005 - INFO - Data preprocessing complete.
+2023-11-09 21:33:22,321 - INFO - Prediction successful.
+2023-11-09 21:33:22,321 - INFO - Predictions added to dataframe successfully.
