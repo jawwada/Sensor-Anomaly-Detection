@@ -87,34 +87,63 @@ process given below:
 The project is structured as follows:
 ```
 sensor_fault_detection
+
 ├── config
+
 │   ├── log_config.py
+
 ├── data
+
 │   ├── historical_sensor_data.csb
+
 │   ├── latest_sensor_data.csv
+
 ├── models
+
 │   ├── model.joblib
+
 ├── notebooks
+
 │   ├── model.ipynb
+
 ├── src
+
 │   ├── app
+
 │   │   ├── app.py
+
 │   ├── request
+
 │   │   ├── request.py
+
 │   ├── init.py       
+
 │   ├── main.py
+
 │   ├── machine_learning
+
 │   │   ├── inference.py
+
 │   │   ├── model.py
+
 │   │   ├── data_preprocessing.py
+
 ├── tests
+
 │   ├── test_data_preprocessing.py
+
 │   ├── test_model_training.py
+
 ├── Dockerfile
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── .gitignore
+
 ├── sensor_fault_detection.yaml
+
 ```
 
 ## Project Components
