@@ -17,7 +17,7 @@ then navigate to the project directory:
 ```bash
 cd sensor_fault_detection
 ```
-after cloning the repository, navigate to the project directory:
+There is a data folder in the project root: sensor_fault_detection directory
 1. add data files historical_sensor_data.csb and latest_sensor_data.csv to data folder
 2. add model.ipynb to notebooks folder
 
