@@ -145,8 +145,8 @@ sensor_fault_detection
 ├── sensor_fault_detection.yaml
 
 ```
-
 ## Project Components
+
 The project consists of the following components:
 - **config**: Contains the configuration files for the project. Logging, Database, Blob Storage, etc.
 - **data**: Contains the historical and latest sensor data.
