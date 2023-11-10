@@ -9,7 +9,7 @@ notebooks/*.ipynb
 __pycache__/
 
 # Distribution / packaging
-.vscode
+.vscode/
 .joblib
 .Python
 .pytest_cache/
@@ -22,7 +22,7 @@ docs/_build/
 .ipynb_checkpoints
 
 #pycharm
-.idea
+.idea/
 
 # IPython
 profile_default/
@@ -36,4 +36,4 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-logs
+logs/
