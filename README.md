@@ -28,14 +28,15 @@ then navigate to the project directory:
 ```bash
 cd sensor_fault_detection
 ```
-There is a data folder in the project root: sensor_fault_detection directory
-1. add data files historical_sensor_data.csb and latest_sensor_data.csv to data folder
-2. add model.ipynb to notebooks folder
 *** To run the project locally or run the request.py from shell, first set the PYTHONPATH: ***
-
 ```bash
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 ```
+There is a data folder in the project root: sensor_fault_detection directory
+1. add data files historical_sensor_data.csb and latest_sensor_data.csv to data folder
+2. add model.ipynb to notebooks folder
+
+
 Install the required packages:
 
 ```bash
