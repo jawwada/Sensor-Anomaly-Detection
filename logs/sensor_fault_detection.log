@@ -36,3 +36,8 @@
 2023-11-09 21:36:26,203 - INFO - Data loaded successfully from data/latest_sensor_data.csv
 2023-11-09 21:37:02,736 - INFO - Data loaded successfully from data/latest_sensor_data.csv
 2023-11-09 21:37:45,471 - INFO - Data loaded successfully from data/latest_sensor_data.csv
+2023-11-10 15:30:21,063 - ERROR - Error loading data from data/historical_sensor_data.csv: [Errno 2] No such file or directory: 'data/historical_sensor_data.csv'
+2023-11-10 15:30:58,324 - INFO - Data loaded successfully from data/historical_sensor_data.csv
+2023-11-10 15:30:58,325 - INFO - Label column found and processed.
+2023-11-10 15:30:58,325 - INFO - Data preprocessing complete.
+2023-11-10 15:30:58,325 - INFO - Data split into train and test sets.

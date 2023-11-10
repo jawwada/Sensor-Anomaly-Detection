@@ -28,7 +28,7 @@ then navigate to the project directory:
 ```bash
 cd sensor_fault_detection
 ```
-*** To run the project locally or run the request.py from shell, first set the PYTHONPATH: ***
+*** To run the project from shell/locally or run the request.py from shell, first set the PYTHONPATH: ***
 ```bash
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 ```
