@@ -21,7 +21,7 @@ Key features and processes within the project include:
 
 ## Quick Start
 
-To run the project from shell/locally , navigate to the project directory set the PYTHONPATH:
+To run the project from shell/locally , navigate to the project directory and set the PYTHONPATH:
 ```bash
 cd sensor_fault_detection
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
