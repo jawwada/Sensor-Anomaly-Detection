@@ -20,16 +20,10 @@ Key features and processes within the project include:
 - PyCharm or Visual Studio Code (for IDE-based setup)
 
 ## Quick Start
-To run the project locally, first clone the repository:
-```bash
-git clone git@github.com:jawwada/sensor_fault_detection.git
-```
-then navigate to the project directory:
+
+To run the project from shell/locally , navigate to the project directory set the PYTHONPATH:
 ```bash
 cd sensor_fault_detection
-```
-*** To run the project from shell/locally or run the request.py from shell, first set the PYTHONPATH: ***
-```bash
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 ```
 There is a data folder in the project root: sensor_fault_detection directory
